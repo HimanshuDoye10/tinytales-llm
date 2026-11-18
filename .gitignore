@@ -1,0 +1,32 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# PyTorch checkpoints & weights (too large for GitHub standard commits)
+*.pt
+*.pth
+*.bin
+*.ckpt
+checkpoint_best.pt
+tokens.pt
+
+# Large raw datasets
+TinyStories-valid.txt
+
+# Logs & temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.vscode/
+.idea/
